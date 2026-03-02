@@ -5,7 +5,6 @@ using namespace std;
 class Solution {
   public:
     long subarrayXor(vector<int> &arr, int k) {
-        // code here
         unordered_map<int,long> mp;
         long ans = 0;
         int xr = 0;
